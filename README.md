@@ -2,7 +2,7 @@
 
 ## 1 - Introducción al curso de Ionic 2.
 
-## 2 - Introduccion a Ionic.
+## 2 - Introducción a Ionic.
 
 - Qué es Ionic 2?. Refrescar Angular.
 - Ionic 2 y Ionic 3.
@@ -20,7 +20,7 @@
 - Comandos del CLI
 
 ```
-> npm install -g ionic@latest
+> sudo npm install -g ionic@latest
 ```
 
 ```
