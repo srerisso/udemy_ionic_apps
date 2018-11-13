@@ -45,9 +45,41 @@ login
 ...
 ```
 
+Generar una página del proyecto, y un provider.
+
 ```
 > ionic generate page login
 > ionic g provider usuario
 ```
+
+Comando para crear la plataforma (Android o IOS)
+
+```
+> ionic cordova platform add android
+
+```
+
+Comandos que arreglan problemas
+
+```
+> ionic cordova platform remove android
+> ionic cordova platform add android@6.4.0
+> ionic cordova build android
+```
+
+Probar Ionic DevApp. Creo una nueva app Ionic, 'misTabs'. En el directorio test.
+
+
+```
+> ionic start misTabs tabs
+```
+
+Servimos la app con -c y comprobamos en el móvil, en la app Ionic DevApp.
+
+```
+> ionic serve -c
+```
+
+
 
 ## 10 - App Tracker Taxis.
