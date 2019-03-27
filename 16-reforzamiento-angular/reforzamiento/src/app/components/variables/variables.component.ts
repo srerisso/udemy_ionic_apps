@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NgModule } from '@angular/core'
 
 @Component({
   selector: 'app-variables',
   templateUrl: './variables.component.html',
   styleUrls: ['./variables.component.css']
 })
-export class VariablesComponent implements OnInit {
+export class VariablesComponent {
+  nombre:string = "Logan";
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
+  cambiar_nombre() {
+    this.nombre = "Wolverine";
   }
 
 }

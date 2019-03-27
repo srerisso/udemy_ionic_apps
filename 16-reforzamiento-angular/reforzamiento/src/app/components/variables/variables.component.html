@@ -1,3 +1,24 @@
-<p>
-  variables works!
-</p>
+<table class="table table-inverse">
+  <tr>
+    <td>Variable string</td>
+    <td>{{ nombre }}</td>
+  </tr>
+
+  <tr>
+    <td>Nombre</td>
+    <td> {{ nombre | uppercase }}</td>
+  </tr>
+</table>
+
+<button type="button"
+        class="btn btn-primary"
+        (click)="cambiar_nombre()">
+      Cambiar nombre
+</button>
+
+<br><br>
+
+<input type="text"
+       class="form-control"
+       placeholder="Escriba un nombre"
+       [(ngModel)]="nombre">
