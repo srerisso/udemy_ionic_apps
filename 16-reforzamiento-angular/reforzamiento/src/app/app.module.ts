@@ -7,12 +7,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { VariablesComponent } from './components/variables/variables.component';
 
 import { FormsModule } from '@angular/forms';
+import { EstructuralesComponent } from './components/estructurales/estructurales.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    VariablesComponent
+    VariablesComponent,
+    EstructuralesComponent
   ],
   imports: [
     BrowserModule,
