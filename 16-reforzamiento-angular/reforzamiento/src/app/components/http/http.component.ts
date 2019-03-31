@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { MutantesService } from "../../services/mutantes.service";
 
 @Component({

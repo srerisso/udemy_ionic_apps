@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-// import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class MutantesService {
@@ -7,7 +7,7 @@ export class MutantesService {
   mutantes:any[] = [];
 
   // constructor( private http:Http ) {
-  constructor( ) {  
+  constructor( private http:HttpClient ) {
     console.log("Servicio de Mutantes listo para usar.");
     this.cargar_mutantes();
   }
@@ -15,8 +15,8 @@ export class MutantesService {
   cargar_mutantes() {
     this.http.get("assets/data/mutantes.json")
              .subscribe( respuesta => {
-               let data = respuesta.json();
-               console.log(data);
+               console.log(respuesta);
+               this.mutantes = respuesta.mutantes;
              })
   }
 

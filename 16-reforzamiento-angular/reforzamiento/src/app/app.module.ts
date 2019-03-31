@@ -12,12 +12,11 @@ import { HttpComponent } from './components/http/http.component';
 
 import { MutantesService } from "./services/mutantes.service";
 
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HttpModule,
     NavbarComponent,
     VariablesComponent,
     EstructuralesComponent,
@@ -26,7 +25,8 @@ import { HttpModule } from '@angular/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     MutantesService
