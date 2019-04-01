@@ -17,7 +17,7 @@
 > ionic serve
 ```
 
-- Comandos del CLI
+Comandos del CLI
 
 ```
 > sudo npm install -g ionic@latest
@@ -81,5 +81,30 @@ Servimos la app con -c y comprobamos en el móvil, en la app Ionic DevApp.
 ```
 
 
+## 3 - Sonidos App
+
+- 1- Creación de proyectos en blanco.
+- 2- Reproducir sonidos
+- 3- Uso de componentes como el ion-list y ion-items
+- 4- Usar directivas de Angular
+- 5- Evento click/tap
+- 6- Hacer 'pull' para refrescar nuestra app
+- 7- Deslizar para eliminar
+- 8- Cambiar el orden de los elementos de una lista
+- 9- Uso de elementos estáticos para nuestra app
+
+Diagrama de la app. En Sketch, o Pencil, o aunque sea en papel.
+
+Iniciando la app de sonidos.
+
+Tengo que utilizar Ioinic 4. En el curso, utiliza versión 2de Ionic, pero ya está deshabilitada.
+
+```
+> ionic start sonidos4
+```
+
 
 ## 10 - App Tracker Taxis.
+
+
+## 16 - Reforzamiento angular
