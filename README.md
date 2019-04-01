@@ -101,8 +101,16 @@ Tengo que utilizar Ioinic 4. En el curso, utiliza versión 2de Ionic, pero ya es
 
 ```
 > ionic start sonidos4
+
+> ionic serve
+
 ```
 
+Creando listas
+
+A partir de Ionic 4, podemos elegir entre Angular, Javascript, React o VueJS para el código javascript.
+
+Elegimos una Avatar List, de [Ionic components](https://ionicframework.com/docs/api/list)
 
 ## 10 - App Tracker Taxis.
 

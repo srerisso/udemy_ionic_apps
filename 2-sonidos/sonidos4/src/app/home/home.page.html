@@ -7,5 +7,15 @@
 </ion-header>
 
 <ion-content>
+  <!-- List of Text Items -->
+  <ion-list>
+    <ion-item *ngFor="let animal of animales">
+      <ion-avatar item-left>
+        <img [src]="animal.imagen" alt="">
+      </ion-avatar>
+
+      <h2>{{ animal.nombre }}</h2>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
