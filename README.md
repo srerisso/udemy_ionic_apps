@@ -106,11 +106,17 @@ Tengo que utilizar Ioinic 4. En el curso, utiliza versión 2de Ionic, pero ya es
 
 ```
 
-Creando listas
+Creando listas de Ionic con ion-list, ion-item.
 
 A partir de Ionic 4, podemos elegir entre Angular, Javascript, React o VueJS para el código javascript.
 
 Elegimos una Avatar List, de [Ionic components](https://ionicframework.com/docs/api/list)
+
+Evento click dentro de un ion-item.
+
+Afinando los controles de la app de audio.
+
+Deslizar para borrar ion-item-sliding.
 
 ## 10 - App Tracker Taxis.
 
