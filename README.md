@@ -118,6 +118,10 @@ Afinando los controles de la app de audio.
 
 Deslizar para borrar ion-item-sliding.
 
+Refrescar la página cuando hacemos un pull hacia abajo.
+
+
+
 ## 10 - App Tracker Taxis.
 
 

@@ -9,11 +9,7 @@
 <ion-content>
   <!-- List of Text Items -->
   <ion-list>
-    <ion-item-sliding *ngFor="let animal of animales">
-      <ion-item-options side="start">
-        <ion-item-option (click)="favorite(item)">Favorite</ion-item-option>
-        <ion-item-option color="danger" (click)="share(item)">Share</ion-item-option>
-      </ion-item-options>
+    <ion-item-sliding *ngFor="let animal of animales; let i = index">
 
       <ion-item (click)="reproducir( animal )">
 
@@ -29,7 +25,9 @@
       </ion-item>
 
       <ion-item-options side="end">
-           <ion-item-option (click)="unread(item)">Unread</ion-item-option>
+           <ion-item-option
+            color="danger"
+            (click)="borrar_animal(i)">Eliminar</ion-item-option>
       </ion-item-options>
 
     </ion-item-sliding>

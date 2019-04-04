@@ -57,4 +57,8 @@ export class HomePage {
 
    }
 
+   borrar_animal(index:number) {
+     this.animales.splice(index, 1);
+   }
+
 }
