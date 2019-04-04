@@ -7,6 +7,16 @@
 </ion-header>
 
 <ion-content>
+
+  <ion-refresher slot="fixed" (ionRefresh)="ionRefresh($event)">
+    <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="Pull to refresh"
+      refreshingSpinner="circles"
+      refreshingText="Refreshing...">      
+    </ion-refresher-content>
+  </ion-refresher>
+
   <!-- List of Text Items -->
   <ion-list>
     <ion-item-sliding *ngFor="let animal of animales; let i = index">
